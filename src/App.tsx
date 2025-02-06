@@ -4,6 +4,7 @@ import Introduce from "./Pages/Introduce";
 import NotFound from "./Pages/NotFound";
 import Contact from "./Pages/Contact";
 import ContactDetail from "./Pages/ContactDetail";
+import Playlists from "./Pages/Playlists/Playlists";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -19,6 +20,10 @@ const App = () => {
     {
       path: "/contact/:id",
       element: <ContactDetail />,
+    },
+    {
+      path: "/playlists",
+      element: <Playlists />,
     },
     {
       path: "*",

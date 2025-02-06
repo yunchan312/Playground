@@ -134,7 +134,7 @@ const Home = () => {
           <div className="mb-12">
             <TinyCircle text="About Me" path="introduce" />
           </div>
-          <TinyCircle text="Empty" path="Empty" />
+          <TinyCircle text="Playlists" path="playlists" />
         </div>
         <div className="flex justify-center items-center bg-black">
           <TinyCircle text="Empty" path="Empty" />
@@ -165,7 +165,7 @@ const Home = () => {
         </div>
         <div className="lists hidden">
           <div className="listItem1">
-            <HomeBtn text="Empty" path="empty" />
+            <HomeBtn text="PlayLists" path="playlists" />
           </div>
           <div className="listItem2">
             <HomeBtn text="About Me" path="introduce" />
